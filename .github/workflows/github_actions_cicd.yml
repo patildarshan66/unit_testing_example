@@ -75,8 +75,6 @@ jobs:
       # Build Android Bundle release file
       - name: Build aab
         run:  flutter build appbundle
-        with:
-          tag: v1.0.${{ github.run_number }}
 
 #      - run: flutter build apk --release --split-per-abi
 #      - run: |
